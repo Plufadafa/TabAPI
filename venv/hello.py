@@ -3,6 +3,9 @@ from flaskext.mysql import MySQL
 
 
 app = Flask(__name__)
+mysql = MYSQL()
+
+
 
 tasks = [
     {
